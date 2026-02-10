@@ -1,273 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prograing traks website</title>
+    <title>Programming Tracks</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Clicker+Script&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <!--Render  all element normally-->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
 </head>
 <body>
-    <div class="landing-page">
-    <header>
-        <div class="logo">
-            <img src="imgs/logo.png" alt="">
+
+    <!-- ===== Header ===== -->
+    <header class="header-area">
+        <div class="container flex-between">
+            <div class="logo">
+                <a href="#"><img src="imgs/logo.png" alt="Programming Tracks Logo" height="50"></a>
+            </div>
+            <nav class="nav-links">
+                <a href="#courses">Courses</a>
+                <a href="#AboutUs">About</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+            </nav>
         </div>
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#AboutUs">AboutUs</a>
-            <a href="#Blog">Blog</a>
-            <a href="#contacts">Contacts</a>
-            <a href="" class="search-icon"><i class="fas fa-search"></i></a>
-        </nav>
     </header>
-    <hr>
+
+    <!-- ===== Landing Section ===== -->
     <section class="landing">
-        <h1>Helping You  <br> Be<span>  First</span></h1>
-        <p>Integrated system for analyzing business processes of transportation companies of various types (passenger and freight
-        transport).
-</p>
-<button>Send Request</button>
-</section>
-<div class="arrow">
-    <i class="fas fa-arrow-down"></i>
-</div>
-</div>
-<section id="AboutUs">
-    <div class="about-logo">
-        <img src="imgs/info.png" alt="">
-    </div>
-    <div class="about-text">
-        <h1>01</h1>
-        <h2>Innovative <br>Transport Systems</h2>
-        <p>LLC "ITS" is at the forefront of IT innovation in the transportation industry.</p>
-       <p> We offer comprehensive and industry-tailored solutions — from software design and development to implementation and
-        support.</p>
-       <p> Our software helps transportation companies improve their efficiency, safety, and service quality.</p>
-        
-       <p> At LLC "ITS", we believe in the power of innovation and strive to ensure our clients always stay one step ahead of the
-        competition.</p>
-        <p>Our goal is to provide you with the tools to overcome any challenges you face using cutting-edge technologies.</p>
-        <button>More About Us</button>
-</div>
-</section>
-<section id="services">
-    <h1>02</h1>
-    <h2>Our Services</h2>
-    <div class="Services-content">
-        <div class="content">
-            <h3 class="Head">01</h3>
-            <div>
-            <h3>Fuel and Lubricants Management Software (FLMS)</h3>
-            <p>Our fuel and lubricants management software for transportation companies is a comprehensive solution designed to
-                monitor, analyze, and optimize fuel expenses.</p>
-            <button>More About the Services</button></div>
-        </div >
-        <div class="content">
-            <h3 class="Head">02</h3>
-            <div>
-            <h3>Driver Payroll Management Software</h3>
-            <p>Driver Payroll Management Software** for transportation companies includes several key components aimed at automating
-            and optimizing the processes of salary calculation and payment.</p>
-            <button>More About the Services</button></div>
+        <div class="container text-center">
+            <h1>Start Your <span>Coding</span> Journey</h1>
+            <p>Explore curated programming tracks designed to take you from beginner to professional developer.</p>
+            <a href="#courses" class="btn">Join Now</a>
+            <div class="scroll-down"><i class="fas fa-arrow-down"></i></div>
         </div>
-        <div class="content">
-            <h3 class="Head">03</h3>
-            <div>
-            <h3>Software for Tracking and Reducing Empty Mileage</h3>
-            <p>Software for Tracking and Reducing Empty (Idle) Mileage for transportation companies is a comprehensive solution
-            aimed at optimizing logistics processes and minimizing unproductive transportation-related expenses.</p>
-            <button>More About the Services</button></div>
+    </section>
+
+<section id="AboutUs" class="about section">
+    <div class="container about-flex">
+        <div class="about-image">
+            <img src="imgs/1.jpg" alt="About Programming Tracks" width="300">
+        </div>
+        <div class="about-content">
+            <span class="section-number">01</span>
+            <h2>Learn & Build Real Projects</h2>
+            <p>Our programming tracks guide you step by step from fundamentals to advanced topics in web and software development.</p>
+            <p>Each track includes hands-on projects, practical challenges, and real-world exercises.</p>
+            <p>We ensure learners gain both knowledge and practical experience to excel in the tech industry.</p>
+            <a href="#" class="btn">More About Us</a>
         </div>
     </div>
-    <a href="#">View More Services</a>
 </section>
-<section class="Project-Stages">
-    <h1>03</h1>
-    <h2>Project Stages</h2>
-<div class="project-grid">
-    <div class="pro">
-<h3 class="Head">01</h3>
-<h2>We analyze</h2>
-<p>The client's business model and related processes</p>
-    </div>
-    <div class="pro">
-    <h3 class="Head">02</h3>
-    <h2>We Model</h2>
-    <p>How everything should be structured when the team finishes the work</p>
-    </div>
-    <div class="pro">
-    <h3 class="Head">03</h3>
-    <h2>We plan</h2>
-    <p>Project Implementation Stages</p>
-    </div>
-    <div class="pro">
-    <h3 class="Head">04</h3>
-    <h2>We design thoughtfully</h2>
-    <p>A user-friendly and functional interface</p>
-    </div>
-    <div class="pro">
-    <h3 class="Head">05</h3>
-    <h2>We develop</h2>
-    <p>We test and deliver the project in stages at key milestones</p>
-    </div>
-    <div class="pro">
-    <h3 class="Head">06</h3>
-    <h2>We implement</h2>
-    <p>We provide support and help you master your product</p>
-    </div>
-</div>
-</section>
-<section class="choose">
-    <div class="choose-text">
-        <h1>04</h1>
-        <h2>Why Choose Us</h2>
-        <p>Do you want to take your business to the next level?</p>
-      <P>  We offer you a process automation solution that will increase productivity and ensure technological independence.
-        Trust us and open new horizons for your business!</p>
-        <button>Submit Application</button>
-    </div>
-    <div class="choose-img">
-        <img src="imgs/oip.png" alt="">
-    </div>
-</section>
-<section class="clients">
-    <h1>05</h1>
-    <h2>Our Clients</h2>
-    <div>
-        <img src="imgs/client1.png" alt="">
-        <img src="imgs/client2.png" alt="">
-        <img src="imgs/client1.png" alt="">
-        <img src="imgs/client2.png" alt="">
-        <img src="imgs/client1.png" alt="">
-        <img src="imgs/client2.png" alt="">
-        <img src="imgs/client1.png" alt="">
-        <img src="imgs/client2.png" alt="">
-        <img src="imgs/client1.png" alt="">
-        <img src="imgs/client2.png" alt="">
-    </div>
-</section>
-<section class="Technology-Stack">
-    <h1>06</h1>
-    <h2>Technology Stack</h2>
-    <div class="tracks">
-    <div class="front">
-        <h1>frontend</h1>
-        <div class="images">
-            <img src="imgs/front1 (1).png" alt="">
-            <img src="imgs/front1 (2).png" alt="">
-            <img src="imgs/front1 (3).png" alt="">
+
+
+    <!-- ===== Courses Section ===== -->
+    <section id="courses" class="courses section">
+        <div class="container">
+            <span class="section-number">02</span>
+            <h2>Our Courses</h2>
+            <div class="courses-grid">
+                <article class="course-card">
+                    <span class="course-number">01</span>
+                    <h3>Frontend Development Track</h3>
+                    <p>Learn HTML, CSS, JavaScript, and React to build stunning user interfaces.</p>
+                    <a href="#" class="btn">More About the Track</a>
+                </article>
+                <article class="course-card">
+                    <span class="course-number">02</span>
+                    <h3>Backend Development Track</h3>
+                    <p>Master server-side programming with Node.js, Express, and databases.</p>
+                    <a href="#" class="btn">More About the Track</a>
+                </article>
+                <article class="course-card">
+                    <span class="course-number">03</span>
+                    <h3>Mobile App Development Track</h3>
+                    <p>Create Android & iOS apps using Flutter or React Native, and deploy real-world applications.</p>
+                    <a href="#" class="btn">More About the Track</a>
+                </article>
+            </div>
+            <a href="#" class="view-all">View All Tracks</a>
         </div>
-    </div>
-    <div class="back">
-        <h1>Backend</h1>
-        <div class="images">
-            <img src="imgs/back (1).png" alt="">
-            <img src="imgs/back (2).png" alt="">
-        </div>
-    </div>
-    <div class="data">
-        <h1>Databases</h1>
-        <div class="images">
-            <img src="imgs/data (1).png" alt="">
-            <img src="imgs/data (2).png" alt="">
-            <img src="imgs/data (3).png" alt="">
-        </div>
-    </div>
-        <div class="mobile">
-            <h1>Mobile Applications</h1>
-            <div class="images">
-                <img src="imgs/mobile (1).png" alt="">
-                <img src="imgs/mobile (2).png" alt="">
+    </section>
+
+    <!-- ===== Learning Stages ===== -->
+    <section class="learning-stages section">
+        <div class="container">
+            <span class="section-number">03</span>
+            <h2>Learning Stages</h2>
+            <div class="stages-grid">
+                <div class="stage-card">
+                    <span class="stage-number">01</span>
+                    <h3>Learn Basics</h3>
+                    <p>Start with foundational programming concepts and syntax.</p>
+                </div>
+                <div class="stage-card">
+                    <span class="stage-number">02</span>
+                    <h3>Practice</h3>
+                    <p>Work on small exercises to solidify your understanding.</p>
+                </div>
+                <div class="stage-card">
+                    <span class="stage-number">03</span>
+                    <h3>Build Projects</h3>
+                    <p>Create real-world projects to showcase your skills.</p>
+                </div>
+                <div class="stage-card">
+                    <span class="stage-number">04</span>
+                    <h3>Advanced Concepts</h3>
+                    <p>Dive into frameworks, architecture, and best practices.</p>
+                </div>
+                <div class="stage-card">
+                    <span class="stage-number">05</span>
+                    <h3>Portfolio</h3>
+                    <p>Compile your projects into a professional portfolio.</p>
+                </div>
+                <div class="stage-card">
+                    <span class="stage-number">06</span>
+                    <h3>Get Hired</h3>
+                    <p>Prepare for interviews and launch your career in tech.</p>
+                </div>
             </div>
         </div>
-        <div class="Infrastructure">
-            <h1>Infrastructure</h1>
-            <div class="images">
-                <img src="imgs/infr (1).png" alt="">
-                <img src="imgs/infr (2).png" alt="">
+    </section>
+
+    <!-- ===== Technology Stack ===== -->
+    <section class="technology-stack section">
+        <div class="container">
+            <span class="section-number">04</span>
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>Frontend</h3>
+                    <div class="tech-icons">
+                        <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML">
+                        <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS">
+                        <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript">
+                        <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React">
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Backend</h3>
+                    <div class="tech-icons">
+                        <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="Node.js">
+                        <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express">
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Databases</h3>
+                    <div class="tech-icons">
+                        <img src="https://cdn.worldvectorlogo.com/logos/mysql-2.svg" alt="MySQL">
+                        <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB">
+                        <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL">
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Mobile Apps</h3>
+                    <div class="tech-icons">
+                        <img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter">
+                        <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React Native">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="we apply">
-            <h1>We apply</h1>
-            <div class="images">
-                <img src="imgs/we.png" alt="">
+    </section>
+
+    <!-- ===== News Section ===== -->
+    <section id="news" class="news section">
+        <div class="container">
+            <span class="section-number">05</span>
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-item">
+                    <img src="imgs/frontend.jpg" alt="Frontend News">
+                    <time datetime="2026-04-03">03.04.2026</time>
+                    <p>New Frontend Bootcamp Launched!</p>
+                </article>
+                <article class="news-item">
+                    <img src="imgs/backend.jpg" alt="Backend News">
+                    <time datetime="2026-04-03">03.04.2026</time>
+                    <p>Backend Track Updated with Node.js 20</p>
+                </article>
+                <article class="news-item">
+                    <img src="imgs/mobile.jpg" alt="Mobile News">
+                    <time datetime="2026-04-03">03.04.2026</time>
+                    <p>Mobile Development Projects Showcase</p>
+                </article>
             </div>
         </div>
-</div>
-</section>
-<section class="news">
-    <h1>07</h1>
-    <h2>News</h2>
-    <div class="parent">
-    <div class="child">
-        <img src="imgs/news (1).png" alt="">
-        <h4>03.04.2023</h4>
-        <p>Custom Software Development Market Overview by Tadviser</p>
-    </div >
-    <div class="child">
-        <img src="imgs/news (2).png" alt="">
-        <h4>03.04.2023</h4>
-        <p>Custom Software Development Market Overview by Tadviser</p>
-    </div>
-    <div class="child">
-        <img src="imgs/news (3).png" alt="">
-        <h4>03.04.2023</h4>
-        <p>Custom Software Development Market Overview by Tadviser</p>
-    </div>
-    </div>
-</section>
-<section class="notes">
-    <h1>07</h1>
-    <h2>Any Questions?</h2>
-    <p>Leave a request, and our manager will contact you right away!</p>
-    <form action="">
-        <input type="text" placeholder="Your Name">
-        <input type="number" placeholder="Contact Phone">
-        <button >Submit Application</button>
-        <br>
-    </form>
-    <p>I agree with the Personal Data Processing Policy</p>
-</section>
-<footer>
-    <div class="first">
-    <div>
-        <h4>services</h4>
-        <p>Software for accounting of fuel and lubricants (F\&L)</p>
-    <p>  Software for accounting of drivers’ salaries</p>
-<p> Software for accounting and reduction of empty mileage
-</p>
-    </div>
-    <div>
-        <h4>Company</h4>
-        <p>
-            About the Company</p>
-            
-        <p>  Blog</p>
-            
-            <p>Contacts
-        </p>
-    </div>
-    <div>
-        <h4></h4>
-        <p>+201121476035</p>
-        <a href="#">ayman@gmail.com</a>
-        <button>Callback</button>
-    </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <span class="section-number">06</span>
+            <h2>Contact Us</h2>
+            <p>Leave your request and our mentor will contact you!</p>
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Contact Phone" required>
+                <label>
+                    <input type="checkbox" required>
+                    I agree with the Personal Data Processing Policy
+                </label>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+   <!-- ===== Footer ===== -->
+<footer class="footer">
+    <div class="container flex-between">
+        <!-- Tracks -->
+        <div class="footer-column">
+            <h4>Tracks</h4>
+            <a href="#courses">Frontend Development</a>
+            <a href="#courses">Backend Development</a>
+            <a href="#courses">Mobile Apps Development</a>
+        </div>
+
+        <!-- Company -->
+        <div class="footer-column">
+            <h4>Company</h4>
+            <a href="#AboutUs">About</a>
+            <a href="#news">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+            <a href="tel:+201121476035">+201121476035</a>
+            <a href="mailto:ayman@gmail.com">ayman@gmail.com</a>
+            <a href="#contact" class="btn">Request Call</a>
+        </div>
     </div>
     <hr>
-    <div class="final">
-        <p>© Copyright 2014 - 2024. ООО «ИТС»</p>
-
-    </div>
+    <p class="copyright">© 2026 Programming Tracks</p>
 </footer>
-</body>
 
+
+</body>
 </html>
