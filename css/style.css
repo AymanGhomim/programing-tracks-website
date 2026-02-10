@@ -1,0 +1,325 @@
+/* ===== General Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+p{
+    margin: 1rem 0;
+    font-weight: 500;
+}
+/* ===== Utility Classes ===== */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ===== Buttons ===== */
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Header ===== */
+.header-area {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.8rem 0;
+}
+
+.header-area .nav-links a {
+    margin-left: 1.5rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.header-area .nav-links a:hover {
+    color: #007bff;
+}
+
+.search-icon i {
+    font-size: 1.1rem;
+}
+
+/* ===== Landing Section ===== */
+.landing {
+    background: url('../imgs/Hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 6rem 2rem;
+    position: relative;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.landing h1 span {
+    color: #007bff;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.scroll-down {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+}
+
+/* ===== Sections ===== */
+.section {
+    padding: 5rem 0;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.section-number {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 4rem;
+}
+
+.about-image {
+flex: 1 1 400px;
+width: 100%;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4;
+    display: block;
+}
+
+.about-content {
+    flex: 1 1 400px; 
+    min-width: 300px; 
+ 
+}
+.about-content p{
+    margin-bottom: 1.5rem;
+}
+/* ===== Courses Section ===== */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.course-card {
+    background-color: #f0f8ff;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-number {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+/* ===== Learning Stages ===== */
+.stages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.stage-card {
+    background-color: #fdf5e6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stage-number {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* ===== Technology Stack ===== */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.tech-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tech-icons img {
+    margin: 0.5rem;
+    width: 50px;
+    height: 50px;
+}
+
+/* ===== News Section ===== */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.news-item time {
+    font-size: 0.9rem;
+    color: #555;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+/* ===== Contact Form ===== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"] {
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form label {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-form .btn {
+    align-self: center;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footer-column h4 {
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.footer-column a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0.3rem 0;
+    transition: all 0.3s;
+}
+
+.footer-column a:hover {
+    color: #007bff;
+}
+
+.footer-column .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.footer-column .btn:hover {
+    background-color: #0056b3;
+}
+
+.footer hr {
+    border: 0.5px solid #444;
+    margin: 2rem 0;
+}
+
+.footer p {
+    text-align: center;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .flex-between {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+}
